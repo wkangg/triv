@@ -19,7 +19,7 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v2
         with:
-         version: 8.5.0
+         version: 8.15.9
          
       - name: Install Node ${{ matrix.node-version }}
         uses: actions/setup-node@v3
