@@ -72,7 +72,7 @@ dependencies:
     version: 2.4.2
   ytdl-core:
     specifier: ^4.11.4
-    version: 4.11.4
+    version: 4.11.5
   zlib-sync:
     specifier: ^0.1.8
     version: 0.1.8
@@ -1844,8 +1844,8 @@ packages:
     resolution: {integrity: sha512-LZj8kIVf9KCphiHmH7sbFQTVe4tOemb202fWwvJwR9W5ENW/1hxJN6ksAWGhQgSBSa3jyWhnjKU1Fw1GaOdbyA==}
     engines: {node: '>=12'}
     dependencies:
-      miniget: 4.2.2
-      sax: 1.2.4
+      miniget: 4.2.3
+      sax: 1.6.1
     dev: false
 
   /make-dir@3.1.0:
@@ -1909,8 +1909,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /miniget@4.2.2:
-    resolution: {integrity: sha512-a7voNL1N5lDMxvTMExOkg+Fq89jM2vY8pAi9ZEWzZtfNmdfP6RXkvUtFnCAXoCv2T9k1v/fUJVaAEuepGcvLYA==}
+  /miniget@4.2.3:
+    resolution: {integrity: sha512-SjbDPDICJ1zT+ZvQwK0hUcRY4wxlhhNpHL9nJOB2MEAXRGagTljsO8MEDzQMTFf0Q8g4QNi8P9lEm/g7e+qgzA==}
     engines: {node: '>=12'}
     dev: false
 
@@ -2405,8 +2405,9 @@ packages:
       regexp-tree: 0.1.27
     dev: true
 
-  /sax@1.2.4:
-    resolution: {integrity: sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==}
+  /sax@1.6.1:
+    resolution: {integrity: sha512-42tBVwLWnaQvW5zc4HbZrTuWccECCZfBi92FDuwtqxasH+JbPB3/FOKb1m222K42R4WxuxzzMsTswfzgtSu64Q==}
+    engines: {node: '>=11.0.0'}
     dev: false
 
   /seed-random@2.2.0:
@@ -2861,13 +2862,13 @@ packages:
       simple-get: 4.0.1
     dev: false
 
-  /ytdl-core@4.11.4:
-    resolution: {integrity: sha512-tsVvqt++B5LSTMnCKQb4H/PFBewKj7gGPJ6KIM5gOFGMKNZj4qglGAl4QGFG8cNPP6wY54P80FDID5eN2di0GQ==}
+  /ytdl-core@4.11.5:
+    resolution: {integrity: sha512-27LwsW4n4nyNviRCO1hmr8Wr5J1wLLMawHCQvH8Fk0hiRqrxuIu028WzbJetiYH28K8XDbeinYW4/wcHQD1EXA==}
     engines: {node: '>=12'}
     dependencies:
       m3u8stream: 0.8.6
-      miniget: 4.2.2
-      sax: 1.2.4
+      miniget: 4.2.3
+      sax: 1.6.1
     dev: false
 
   /zlib-sync@0.1.8:
